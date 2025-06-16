@@ -1,51 +1,31 @@
-<<<<<<< HEAD
-# Famous Actor Anki Deck Generator
+# TMDb Top 1000 Actors Snapshot (Example: June 15, 2025)
 
-This project fetches data for 1000 famous actors from The Movie Database (TMDb) API and generates a CSV file suitable for creating an Anki deck.
+This repository contains:
 
-## Features
+- A Python script to fetch and generate a CSV dataset of the 1000 most talked-about actors on The Movie Database (TMDb) at the time the script is run.
+- An example CSV file representing the snapshot taken on June 15, 2025.
 
-- Fetches 1000 popular actors from TMDb API
-- Includes actor name, photo URL, and "known for" information
-- Generates a CSV file with three columns: name, photo, known_for
-- Rate limiting to respect API limits
+## What This Is
 
-## Setup
+- The CSV includes actor names, profile image URLs, known-for titles, and brief bios.
+- The popularity ranking is based on TMDb’s internal metric, reflecting current online attention.
+- This is not a curated or definitive list, but a dynamic snapshot based on when you run the script.
 
-1. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+## Important Notes
 
-2. Run the script:
-```bash
-python fetch_actors.py
-```
+- The example CSV is a snapshot taken on June 15, 2025.
+- If you run the script yourself with your own TMDb API key (which is *not* included here), it will generate a snapshot reflecting the actors popular *at the time you run it*.
+- TMDb data may include biases or gaps; popularity fluctuates.
+- If someone just had a show come out the day before you make the CSV, then their popularity may be inflated. Since shows are always coming out, this will almost certainly mean that a couple relatively obscure actors and actresses will sneak into your data.
+- This is a list of the most famous actors GLOBALLY. Hollywood will obviously be overrepresented due to American cultural hegemony, but also expect a fair mix of Bollywood, Korean drama stars, anime voice actors, etc. This is a cosmopolitan snapshot. 
 
-## Output
+## Usage and Attribution
 
-The script will generate a `famous_actors.csv` file with the following columns:
-- **name**: Actor's full name
-- **photo**: URL to the actor's profile photo (TMDb image URL)
-- **known_for**: 1-2 sentence description of their most famous movies
+- This project is for educational and personal use only.
+- Actor data and images are sourced from [TMDb API](https://www.themoviedb.org/documentation/api) under their [terms of use](https://www.themoviedb.org/terms-of-use).
+- Please credit TMDb if you use or distribute this data.
 
-## Using with Anki
+---
 
-1. Import the CSV file into Anki
-2. Set up the card template to display:
-   - Front: Actor's name
-   - Back: Actor's photo and "known for" information
+Feel free to fork and adapt the code with your own API key to generate your own snapshots.
 
-## API Key
-
-The script uses the provided TMDb API key. The API key is already configured in the script.
-
-## Notes
-
-- The script includes rate limiting (0.1 second delay between requests) to be respectful to the TMDb API
-- Photos are provided as URLs to TMDb's image service
-- "Known for" information is generated from the actor's most popular movies 
-=======
-# tmdb-top-1000-actors
-A snapshot dataset and Anki deck of the 1000 most talked-about actors worldwide on June 15, 2025, sourced from The Movie Database (TMDb). Includes actor names, headshots, known-for titles, and brief bios. Intended for educational and personal use.
->>>>>>> e7b9855d2bd619b3d8eb563f96665a28e7fb17ef
