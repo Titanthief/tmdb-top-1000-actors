@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Famous Actor Anki Deck Generator
 
 This project fetches data for 1000 famous actors from The Movie Database (TMDb) API and generates a CSV file suitable for creating an Anki deck.
@@ -44,3 +45,7 @@ The script uses the provided TMDb API key. The API key is already configured in 
 - The script includes rate limiting (0.1 second delay between requests) to be respectful to the TMDb API
 - Photos are provided as URLs to TMDb's image service
 - "Known for" information is generated from the actor's most popular movies 
+=======
+# tmdb-top-1000-actors
+A snapshot dataset and Anki deck of the 1000 most talked-about actors worldwide on June 15, 2025, sourced from The Movie Database (TMDb). Includes actor names, headshots, known-for titles, and brief bios. Intended for educational and personal use.
+>>>>>>> e7b9855d2bd619b3d8eb563f96665a28e7fb17ef
