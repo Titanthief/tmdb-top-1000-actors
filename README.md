@@ -4,6 +4,8 @@ This repository contains:
 
 - A Python script to fetch and generate a CSV dataset of the 1000 most talked-about actors on The Movie Database (TMDb) at the time the script is run.
 - An example CSV file representing the snapshot taken on June 15, 2025.
+- A prebuilt Anki deck (.apkg) generated from that CSV, ready to import into Anki.
+- Instructions for generating your own updated versions using your own TMDb API key.
 
 ## What This Is
 
