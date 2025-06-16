@@ -14,7 +14,7 @@ This repository contains:
 ## Important Notes
 
 - The example CSV is a snapshot taken on June 15, 2025.
-- If you run the script yourself with your own TMDb API key (which is *not* included here), it will generate a snapshot reflecting the actors popular *at the time you run it*.
+- To run the script yourself, you must obtain your own TMDb API key by registering for a free account at TMDb API. Insert your key into the script where indicated. This key is not included in the repo for security and privacy reasons.
 - TMDb data may include biases or gaps; popularity fluctuates.
 - If someone just had a show come out the day before you make the CSV, then their popularity may be inflated. Since shows are always coming out, this will almost certainly mean that a couple relatively obscure actors and actresses will sneak into your data.
 - This is a list of the most famous actors GLOBALLY. Hollywood will obviously be overrepresented due to American cultural hegemony, but also expect a fair mix of Bollywood, Korean drama stars, anime voice actors, etc. This is a cosmopolitan snapshot. 
