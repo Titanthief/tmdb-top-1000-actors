@@ -135,7 +135,7 @@ def save_to_csv(actors_data: List[Dict], filename: str = "famous_actors.csv"):
 
 def main():
     # Your TMDb API key
-    api_key = "cfe90800e61250310167bbf1293961e2"
+    api_key = "your_api_goes_here"
     
     try:
         # Fetch actor data
